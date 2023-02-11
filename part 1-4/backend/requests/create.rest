@@ -1,0 +1,10 @@
+post http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNob2NvYm9jbyIsImlkIjoiNjNlMTNlNWU1OTViM2FiNmJhNTc4MTE1IiwiaWF0IjoxNjc1ODE3NTYwfQ.RV--ENdvjHysra_a5qcFWNdlGZzamf1lATXFpxd1Jy0
+
+{
+  "title": "Check BBB",
+  "url": "www.dcs.com",
+  "likes": 21,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkNob2NvYm9jbyIsImlkIjoiNjNlMTNlNWU1OTViM2FiNmJhNTc4MTE1IiwiaWF0IjoxNjc1ODE3NTYwfQ.RV--ENdvjHysra_a5qcFWNdlGZzamf1lATXFpxd1Jy0"
+}
